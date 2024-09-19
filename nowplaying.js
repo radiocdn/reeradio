@@ -45,7 +45,7 @@
                             const albumCoverUrl = data.data[0].album.cover_medium;  // Medium-size cover
                             albumCover.style.backgroundImage = `url(${albumCoverUrl})`;
                         } else {
-                            albumCover.style.backgroundImage = "";  // Default no image
+                            albumCover.style.backgroundImage = "https://res.cloudinary.com/xerosradio/image/upload/f_webp,q_auto/v1/RadioCDN/stations/Logo_ReeRadio_Achtergrond";  // Default no image
                         }
 
                         // Reapply the fade-in animation after updating cover
